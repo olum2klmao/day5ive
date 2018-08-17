@@ -1,11 +1,6 @@
-@keyframes fadein{
-    0%{opacity: 0;}
-    100% {opacity: 1;}
-}
 
 body{text-align: center;
-animation-name:fadein;
-animation-duration: 0.5s;}
+}
 
 h2{
     font-size:74px;
@@ -42,29 +37,29 @@ h3{
     font-size:30px;
 }
 .box a:hover{
-    letter-spacing: 0.75px;
-    transition-duration: 0.25s;
+    
+    transition-duration: 0.1s;
 }
 
 .box #soundcloud:hover{
     color:rgb(255, 123, 0);
-    transition-duration: 0.5s;
+    transition-duration: 0.1s;
    
 }
 
 .box #twitter:hover{
     color:rgb(0, 171, 238);
-    transition-duration: 0.5s;
+    transition-duration: 0.1s;
     
 }
 
 .box #instagram:hover{
     color:rgb(245, 25, 91); 
-    transition-duration: 0.5s;
+    transition-duration: 0.1s;
 }
 
 .box #email:hover{
     color:rgb(119, 119, 119);
-    transition-duration: 0.5s;
+    transition-duration: 0.1s;
     
 }
