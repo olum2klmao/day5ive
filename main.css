@@ -1,0 +1,70 @@
+@keyframes fadein{
+    0%{opacity: 0;}
+    100% {opacity: 1;}
+}
+
+body{text-align: center;
+animation-name:fadein;
+animation-duration: 0.5s;}
+
+h2{
+    font-size:74px;
+    font-family:Karla;
+}
+
+h3{
+    font-size:30px;
+    font-family:Karla;
+    padding-bottom:30px;
+}
+
+.box{
+    line-height:350%;
+    border: solid 5px black;
+    width:330px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:50px;
+    transition-duration: 0.5s;
+}
+
+.box:hover{
+    border-radius: 25px;
+    transition-duration: 0.5s;
+}
+
+.box a{
+    text-decoration: none;
+    color:black;
+    font-family:Varela;
+    transition-duration: 0.25s;
+    font-weight: bold;
+    font-size:30px;
+}
+.box a:hover{
+    letter-spacing: 0.75px;
+    transition-duration: 0.25s;
+}
+
+.box #soundcloud:hover{
+    color:rgb(255, 123, 0);
+    transition-duration: 0.5s;
+   
+}
+
+.box #twitter:hover{
+    color:rgb(0, 171, 238);
+    transition-duration: 0.5s;
+    
+}
+
+.box #instagram:hover{
+    color:rgb(245, 25, 91); 
+    transition-duration: 0.5s;
+}
+
+.box #email:hover{
+    color:rgb(119, 119, 119);
+    transition-duration: 0.5s;
+    
+}
